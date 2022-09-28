@@ -6,6 +6,10 @@ import App from "./components/App";
 ReactDOM.render(
   <Router>
     <App />
+    {/* <Route path='/' element={<Home />} />
+    <Route path='/actors' element={<Actors />} />
+    <Route path='/movies' element={<Movies />} />
+    <Route path='/directors' element={<Directors />} /> */}
   </Router>,
-  document.getElementById("root")
+  document.getElementById('root')
 );
